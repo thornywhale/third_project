@@ -1,0 +1,47 @@
+:root{
+  font-size: 18px;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+
+  background-color: bisque;
+}
+.wrapper{
+  width: 70%;
+  height: 500px;
+  margin: auto;
+
+  background-color: aqua;
+}
+.inner{
+  width: 80px;
+  height: 80px;
+  border: 1px solid #222;
+
+  text-align: center;
+
+  background-color: pink;
+}
+.relative{
+  position: relative;
+  left: -40px;
+  margin-top: 10px;
+}
+.fixed{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.sticky{
+  position: sticky;
+  position: -webkit-sticky;
+}

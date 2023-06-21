@@ -1,0 +1,40 @@
+:root{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+p{
+  color: inherit;
+}
+.nav-list{
+
+}
+.nav-list>.nav-item{
+  display: inline-block;
+  }
+.nav-item{
+  position: relative;
+}
+.nav-link{
+  display: block;
+  padding: 1em 2em;
+  background-color: palegreen;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-list .sub-nav-list{
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.nav-item:hover .sub-nav-list{
+  display: block;
+}
+.nav-item:hover>.nav-link{
+  background-color: rgb(37, 73, 0);
+}
