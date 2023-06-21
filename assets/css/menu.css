@@ -1,40 +1,49 @@
-:root{
+:root {
   font-size: 20px;
   font-family: sans-serif;
 }
-ul{
+ul,
+ol {
   list-style-type: none;
   padding: 0;
 }
-p{
+a{
   color: inherit;
 }
-.nav-list{
-
+.nav-list {
+  text-align: center;
+  font-size: 0;
 }
-.nav-list>.nav-item{
+.nav-list > .nav-item {
   display: inline-block;
-  }
-.nav-item{
+}
+.nav-item {
   position: relative;
+  color: #fff;
+  font-size: 1rem;
 }
 .nav-link{
   display: block;
   padding: 1em 2em;
-  background-color: palegreen;
+  background-color: rgb(1, 147, 1);
   text-decoration: none;
   text-transform: capitalize;
 }
-.nav-list .sub-nav-list{
+.nav-list .sub-nav-list {
   display: none;
   position: absolute;
-  right: 0;
   left: 0;
+  right: 0;
   text-align: center;
 }
-.nav-item:hover .sub-nav-list{
+.nav-item:hover>.sub-nav-list{
   display: block;
-}
+} 
 .nav-item:hover>.nav-link{
-  background-color: rgb(37, 73, 0);
+  background-color: rgb(11, 108, 11);
+}
+.nav-list .sub-nav-list  .sub-nav-list{
+  width: 100%;
+  left: 100%;
+  top:0;
 }
