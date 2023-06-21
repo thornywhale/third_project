@@ -12,6 +12,7 @@ a{
 }
 .nav-list {
   text-align: center;
+  text-transform: capitalize;
   font-size: 0;
 }
 .nav-list > .nav-item {
@@ -25,9 +26,8 @@ a{
 .nav-link{
   display: block;
   padding: 1em 2em;
-  background-color: rgb(1, 147, 1);
+  background-color: rgb(0, 119, 255);
   text-decoration: none;
-  text-transform: capitalize;
 }
 .nav-list .sub-nav-list {
   display: none;
@@ -40,7 +40,7 @@ a{
   display: block;
 } 
 .nav-item:hover>.nav-link{
-  background-color: rgb(11, 108, 11);
+  background-color: rgb(0, 54, 124);
 }
 .nav-list .sub-nav-list  .sub-nav-list{
   width: 100%;
